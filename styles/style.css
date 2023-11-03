@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #171717;
+}
+
+.container {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.task1,
+.task2,
+.task3 {
+  padding: 30px;
+  width: 100%;
+  flex: 1;
+  background-color: rgb(70, 70, 70);
+  border: 2px solid #000000;
+}
+
+.task3 form input[type="text"] {
+  width: 320px;
+  height: 50px;
+  display: flex;
+}
+
+.task3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task3 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#confirm {
+  width: 240px;
+  height: 50px;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.task1,
+.task2 h1 {
+  color: azure;
+}
+
+#message {
+  color: crimson;
+}
