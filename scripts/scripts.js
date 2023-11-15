@@ -28,7 +28,7 @@ const getDate = () => {
     "Saturday",
   ];
 
-  let day = today.getDate() + 1;
+  let day = today.getDate();
   let month = today.getMonth() + 1;
   let year = today.getFullYear();
   let second = today.getSeconds();
